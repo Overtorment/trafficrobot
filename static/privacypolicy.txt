@@ -1,0 +1,31 @@
+Privacy Policy
+==============
+
+trafficRobot.tk website, @trafficRobot chatbot and TrafficRobot browser extension
+---------------------------------------------------------------------------------
+
+Last updated: 2017-08-28
+
+
+Privacy of anyone using the website, bot or browser extension is number one priority.
+Website might have 3rd party stats gathering embedded (like Google Analytics or Yandex Metrika),
+which have their own privacy policies. But besides that, TrafficRobot is not trying to match
+user's analytical data to their physical identities (like, IP or geoposition) or collect any data
+which can help do so.
+
+Traffic Robot does not collect/save any information about the user, besides the very minimum to carry
+on its duties. In particular:
+
+* Application has all logging explicitly turned off (including access logs and error logs)
+* Application perceives users only as randomized ids without any connection to their IPs, geoposition etc.
+* Data passed through from one user to another is not saved, and gets pushed instantly to destination
+* Data passed through is not analyzed or modified in any way
+* Emails received, for convinience, are stored in unique secret web urls (known only to receivers)
+  for up to 12 hours (for receiver's convenience) and get destroyed irreversibly afterwards
+
+
+Nor NSA, nor any other government institution ever gotten access to TrafficRobot with ability to read
+end users' comminication or ability to de-anonymize end users.
+
+Creator of TrafficRobot never received any requests from NSA or any other government institution to provide
+access to TrafficRobot's end users data.

@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "@trafficRobot",
+  "description": "This extension creates unique email addresses for everything you use online, so you can cut off spammers when they start to spam",
+  "version": "1.2.2",
+  "author": "Igor Korsakov",
+
+  "offline_enabled": false,
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Click here!",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://trafficrobot.tk/",
+    "http://trafficrobot.tk/",
+    "http://qrcoder.ru/",
+    "https://telegram.me/",
+    "https://ajax.googleapis.com/"
+  ],
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentscript.js"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "overtorment/trafficrobot",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.0",
+        "irazasyed/telegram-bot-sdk": "^2.0",
+        "react/react": "*",
+        "fire015/flintstone": "^2.0",
+        "nikic/fast-route": "*",
+        "predis/predis": "^1.0",
+        "phpunit/phpunit": "4.7.*",
+        "ezyang/htmlpurifier": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Commands\\": "Commands/",
+            "Controllers\\": "Controllers/",
+            "Models\\": "Models/"
+        },
+        "files": ["routes.php"]
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.6.4"
+    }
+}

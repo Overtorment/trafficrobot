@@ -1,0 +1,16 @@
+{
+  "mailDomain" : "trafficrobot.tk",
+  "baseUrl" : "https://trafficrobot.tk",
+  "listenPort" : 80,
+  "telegramKey"  : "%telegramKey%",
+  "redis" : {
+    "scheme" : "tcp",
+    "host" : "%redis-host%",
+    "port" : 19056,
+    "persistent" : "1",
+    "password" : "%redis-password%"
+  },
+  "statsd":{
+		"host":"%statsd-host%"
+	}
+}
