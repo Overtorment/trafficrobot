@@ -47,7 +47,6 @@ class App
         self::getTelegram() ->addCommand(\Commands\FlatMyconnectorsCommand::class);
         self::getTelegram() ->addCommand(\Commands\FlatNewconnectorCommand::class);
         self::getTelegram() ->addCommand(\Commands\AskconnectornameCommand::class);
-        self::getTelegram() ->addCommand(\Commands\Debug1337::class);
 
         set_error_handler(function($errno, $errstr, $errfile, $errline){
             if (!(error_reporting() & $errno)) {
