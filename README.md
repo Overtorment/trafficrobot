@@ -2,9 +2,11 @@
 
 ## It's an API to your Telegram, disposable emails, browser extension.
 
-![screenshot](https://trafficrobot.tk/static/iphone.png)
+![screenshot](https://push.tg/static/iphone.png)
 
-https://trafficrobot.tk/
+~~https://trafficrobot.tk/~~
+
+https://push.tg/
 
 ## INSTALLATION
 
